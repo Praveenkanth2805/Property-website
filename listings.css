@@ -1,0 +1,96 @@
+*{
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+#header{
+  text-align: center;
+  padding: 10px;
+  border: 5px solid;
+  border-color: hotpink;
+}
+#icon{
+  position:  absolute;
+  border-radius: 50%;
+  border: 2px solid rgb(255, 0, 0);
+  left: 10px;
+  animation: colorRotate 3s infinite linear;
+}
+@keyframes colorRotate {
+  0% {
+    border-color: rgb(255, 0, 0);
+  }
+  33% {
+    border-color: rgb(0, 255, 0);
+  }
+  66% {
+    border-color: rgb(0, 0, 255);
+  }
+  100% {
+    border-color: rgb(255, 0, 0);
+  }
+}
+h2{ 
+  text-align: center;
+  margin-left: 20px;
+}
+#list {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  padding: 10px;
+  margin-top: 10px;
+  justify-content: center;
+}
+#card{
+  border: 5px solid;
+  border-color: hotpink;
+  margin-top: 3px;
+  margin-bottom: 3px;
+}
+#card a {
+  text-decoration: none;
+}
+#card1{
+  align-items: center;
+  height: 300px;
+  width: 250px;
+  border: 2px solid brown;
+  margin: 20px 0px 10px 80px;
+}
+#card1 li{
+  margin-top: 5px;
+  margin-left: 35px;
+  color: deepskyblue;
+}
+#card1 img{
+  margin-top: 10px;
+  margin-left: 25px;
+}
+#contact{
+  border: 5px solid;
+  border-color: hotpink;
+  padding: 10px;
+  text-align: center;
+}
+#contact div h3{
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+#contact a{
+  text-decoration: none;
+}
+.footer-content p {
+  margin-top: 10px;
+}
+
+.social-links a {
+  margin: 0 10px;
+  text-decoration: none;
+}
+.site-footer {
+  margin-top: 5px;
+  border-top: 2px dashed hotpink;
+  text-align: center;
+  padding: 10px;
+}
